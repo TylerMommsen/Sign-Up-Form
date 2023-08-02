@@ -74,14 +74,14 @@ table {
 }
 
 #odin-outline {
-    max-width: 20%;
+    max-width: 15%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 #odin-title {
     color: white;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .right-side {
@@ -91,13 +91,14 @@ table {
 }
 
 .description {
-    margin-top: 150px;
+    margin-top: 100px;
     font-family: "Norse-Bold", sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     max-width: 55ch;
-    padding: 30px;
+    padding: 40px;
     margin-right: 200px;
+    margin-bottom: 40px;
 }
 
 .description #last-line {
@@ -111,13 +112,16 @@ p {
 
 .form-background-colour {
     background-color: white;
-    padding: 20px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.form-column > label {
+.form-column label {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .columns {
@@ -129,12 +133,23 @@ p {
 .form-column {
     flex: 1;
     margin-right: 50px;
+    margin-top: 25px;
+}
+
+#form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #383838;
 }
 
 input {
     width: 100%;
-    height: 25px;
+    height: 35px;
     margin-bottom: 20px;
+    margin-top: 3px;
+    border-color: rgba(56, 56, 56, 0.2);
+    border-radius: 5px;
+    border-style: solid;
 }
 
 button {
@@ -156,6 +171,10 @@ button:hover {
 a {
     color: #596D48;
     text-decoration: none;
+}
+
+label {
+    color: #383838;
 }
 
 #already-have-account {

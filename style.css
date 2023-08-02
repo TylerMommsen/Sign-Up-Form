@@ -45,16 +45,66 @@ table {
 }
 /* --------------------------------------------------- */
 
-@font-face {
-    font-family: "Norse-Bold";
-    src: url(assets/Norse-Bold.otf) format(".otf");
-}
-
 .container {
     background-color: #0E0E0E;
     height: 100vh;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
 }
 
+.left-side {
+    position: relative;
+    height: 100vh;
+}
+
+#bg-image {
+    height: 100%;
+}
+
+.odin {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#odin-outline {
+    max-width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#odin-title {
+    color: white;
+    font-size: 6rem;
+}
+
+.right-side {
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    margin-top: 150px;
+    font-family: "Norse-Bold", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 55ch;
+    padding: 30px;
+    margin-right: 200px;
+}
+
+.description #last-line {
+    margin-top: 25px;
+    font-style: italic;
+}
+
+p {
+    color: #383838;
+}
